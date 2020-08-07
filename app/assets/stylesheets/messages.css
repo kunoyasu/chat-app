@@ -57,8 +57,6 @@
 .chat-header {
   height: 100px;
   padding: 0 40px;
-<<<<<<< Updated upstream
-=======
   display: flex;
   justify-content: space-between;
 }
@@ -78,15 +76,12 @@
   border: 1px solid darkred;
   color: darkred;
   padding: 20px;
->>>>>>> Stashed changes
 }
 
 .messages {
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
-<<<<<<< Updated upstream
-=======
   overflow: scroll;
 }
 
@@ -117,15 +112,42 @@
   color: #434a54;
   font-size: 14px;
   margin-bottom: 40px;
->>>>>>> Stashed changes
 }
+
+.message {
+  margin: 10px 0;
+}
+
+.upper-message{
+  display: flex;
+}
+
+.message-user {
+  color: #434a54;
+  font-size: 16px;
+}
+
+.message-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
 
 .form {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
-<<<<<<< Updated upstream
-=======
   display: flex;
   box-sizing: border-box;
 }
@@ -134,23 +156,8 @@
   background-color: white;
   display: flex;
   width: 100%;
+}
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 .form-message {
   border: none;
   height: 50px;
@@ -180,5 +187,4 @@
 
 .hidden {
   display: none;
->>>>>>> Stashed changes
 }
